@@ -1,0 +1,16 @@
+a=(1,45,34,18,30,17,15,7,25,20)
+print(type(a))
+print(a)
+no=a.count(15)
+print("The number of time 15 appear is: ",no)
+i=a.index(30)
+print("The index of 30 is: ",i)
+repeated=a*3
+print("The repeated Tuple is: ",repeated)
+print(20 in a )
+print("The length of a Tuple is: ",len(a))
+print("Element at index 3 is: ",a[3])
+print("Min element in Tuple is: ",min(a))
+print("Max element in Tuple is: ",max(a))
+print("sum element in Tuple is: ",sum(a))
+
