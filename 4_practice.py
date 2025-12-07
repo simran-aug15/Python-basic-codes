@@ -3,6 +3,6 @@ marks=[] #empty list
 for i in range(5):
    n = int(input("Enter the marks of a student: "))
 marks.append(n)
-
+print("Marks are ",marks)
 marks.sort()
 print("The sorted list is: ",marks)
