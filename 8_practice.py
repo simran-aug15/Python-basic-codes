@@ -2,6 +2,6 @@
 d={}
 for i in range(5):
      name=input("Enter the name: ")
-     lang=input("Enter the language: "))
+     lang=input("Enter the language: ")
      d.update({name:lang})
 print(d)    
