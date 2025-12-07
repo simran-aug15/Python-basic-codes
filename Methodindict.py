@@ -4,7 +4,7 @@ marks={"Simran":100,
        "Akash":89}
 print("The items are: ",marks.items())
 print("The keys are: ",marks.keys())
-print,"The value are: ",(marks.value())
+print("The value are: ",marks.value())
 a=marks.update({"Simran":98})
 print("Marks after updating is: ",a)
 b=marks.pop("Raman","13")
