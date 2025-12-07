@@ -1,7 +1,7 @@
 #Write a program to print following  pattern    *
 #                                              ***
 #                                             *****
-
+i=1
 n=int(input("Enter the n: "))
 for i in range(i,n+1):
     print(" "*(n-i),end=" ")
