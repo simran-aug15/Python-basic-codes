@@ -2,4 +2,7 @@
 marks=[] #empty list
 for i in range(5):
 n=int(input("Enter the marks of a student: "))
-print(add(n))
+marks.append(n)
+
+marks.sort()
+print("The sorted list is: ",marks)
