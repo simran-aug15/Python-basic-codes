@@ -2,7 +2,7 @@ List=[1,23,56,8,9,10,56,89,45]
 List.sort()
 print("The sorted list is: ",List)
 List.reverse()
-print("The reverse of alist is ",List)
+print("The reverse of a list is ",List)
 List.append(15)
 print("The list after append is ",List)
 List.insert(3,30)
