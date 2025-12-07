@@ -4,5 +4,4 @@ for i in range(5):
      name=input("Enter the name: ")
      lang=int(input("Enter the language: "))
      d.update({name:lang})
-
- print(d)    
+print(d)    
