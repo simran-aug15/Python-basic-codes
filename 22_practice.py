@@ -4,4 +4,4 @@ def Sum(n):
        return 1
     else:
       return Sum(n-1)+n
-print(sum(4))
+print(Sum(4))
