@@ -7,5 +7,5 @@ def goodDay(name,ending):
     print(ending)
     return 7
 
-goodDay("simran","Thank you")
+a=goodDay("simran","Thank you")
 print(a)
