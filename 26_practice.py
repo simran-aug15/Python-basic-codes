@@ -1,4 +1,11 @@
 #Write a program to generate multiplication table from 2 to 12 and write it to diff files.
+import os
+
+# create folder if not exists
+if not os.path.exists("table"):
+    os.makedirs("table")
+
+
 def generatetable(n):
     table=""
 for i in range (1,11):
