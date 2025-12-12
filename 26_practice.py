@@ -4,9 +4,9 @@
 def generateTable(n):
     table=""
 for i in range (1,11):
-    table += f"{n} X {i}-{n*i}\n" # type: ignore
+      table += f"{n} X {i}-{n*i}\n" # type: ignore
 with open(f"table/table_{n}.txt","w") as f: # type: ignore
-    f.write(table)
+      f.write(table)
 
 for i in range(2,13):
     generateTable(i)        
