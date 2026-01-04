@@ -7,3 +7,6 @@ def rem(l,word):
             n.append(item.strip(word))
      return n
 print(rem(l,"an"))
+
+
+
